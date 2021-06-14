@@ -9,9 +9,9 @@ select title from film;
 select customer_id client_id from customer;
 select language_id language from film;
 # 5.1 Find out how many stores does the company have?
-select store_id from store;
+select distinct store_id from store;
 # 5.2 Find out how many employees staff does the company have?
-select * from staff_id;
+select distinct staff_id from staff;
 # 5.3 Return a list of employee first names only?
-select first_name from staff;
+select distinct first_name from staff;
 
